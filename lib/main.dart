@@ -54,9 +54,9 @@ class AppScreen extends StatelessWidget {
             }
             if (state is HomePageLoaded) {
               return const HomePage();
-            }
+            } 
             if (state is StatisticsPageLoaded) {
-              return const StatisticsPage();
+              return  StatisticsPage();
             }
             if (state is WorkoutsPageLoaded) {
               return const WorkoutsPage();

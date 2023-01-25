@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 import 'package:tracker_app/dto/habbits.dart';
 import 'package:tracker_app/ui_component/habbit_widget.dart';
 import 'package:tracker_app/util/color_util.dart';
@@ -14,14 +15,11 @@ class HomePage extends StatelessWidget {
       backgroundColor: ColorUtil.backgroundColor,
       body: SingleChildScrollView(
         child: Padding(
-          padding: const EdgeInsets.symmetric(vertical: 30, horizontal: 30),
+          padding: const EdgeInsets.symmetric(vertical: 50, horizontal: 30),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Padding(
-                padding: const EdgeInsets.only(bottom: 30),
-                child: Text(headerText, style: FontUtil.headerFont),
-              ),
+              Padding(padding: const EdgeInsets.only(bottom: 30), child: Text(headerText, style: FontUtil.headerFont)),
               Row(
                 children: [
                   Column(children: const [
